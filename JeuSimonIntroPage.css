@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(17, 230, 10);
+    animation: backgroundAnimation 20s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #000000;
+    }
+    10% {
+        background-color: #333333;
+    }
+    20% {
+        background-color: #444444;
+    }
+    30% {
+        background-color: #555555;
+    }
+    40% {
+        background-color: #666666;
+    }
+    50% {
+        background-color: #2c2c2c;
+    }
+    60% {
+        background-color: #4f4f4f;
+    }
+    70% {
+        backgound-color: #000000;
+    }
+    80% {
+        background-color: #333333;
+    }
+    90% {
+        background-color: #444444
+    }
+    100% {
+        background-color: #555555
+    }
+}
+
+h1 {
+    animation: backgroundAnimation 2s infinite alternate;
+    border-radius: 100px;
+    padding: 1%;
+    color: #ff0000;
+    box-shadow: 0 0 50px #ff0000;
+    display: flex;
+    justify-content: center;
+}
+
+.connection {
+    background-color: rgb(228, 18, 11);
+    color: white;
+    font-size: 200%;
+    border-radius: 100px;
+    justify-self: center;
+    margin-top: 100px;
+    padding: 3%;
+    box-shadow: 0 0 60px #ff0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new_connection {
+    background-color: rgb(214, 29, 16);
+    color: white;
+    font-size: 200%;
+    border-radius: 100px;
+    justify-self: center;
+    margin-top: 100px;
+    padding: 3%;
+    box-shadow: 0 0 60px #ff0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registre {
+    font-size: 100%;
+    border-radius: 100px;
+    padding: 2%;
+    width: 80%
+}
+
+.password {
+    font-size: 100%;
+    border-radius: 100px;
+    padding: 2%;
+    width: 80%
+}
+
+.password-input {
+    width: 50%;
+    padding: 10px;
+    padding-right: 40px;
+    /* Pour ne pas cacher le bouton */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#toggle-password {
+    border-radius: 100%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+    transition: color 0.3s ease;
+    margin-left: 90%;
+    margin-top: -7%;
+}
+
+.toggle-password:hover {
+    color: #000;
+}
