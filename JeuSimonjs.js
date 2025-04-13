@@ -213,11 +213,11 @@ function afficherpassword2() {
     }
 }
 
-/*function timer() {
+function timer() {
 
     if (seconde < 60) {
         seconde++;
-        document.getElementById("chrono").textContent = 0 + ":" + minute + ":" + seconde;
+        document.getElementById("chrono").textContent = heure + ":" + minute + ":" + seconde;
     } else if (seconde == 60 && minute < 60) {
         minute++;
         seonde = 0;
@@ -231,7 +231,6 @@ function afficherpassword2() {
 }
 
 setInterval(timer(), 1000)
-*/
 
 let playlist = ["chill.mp3", "projet.mp3"]; // Liste des musiques
 let currentTrack = 0;
@@ -271,3 +270,5 @@ volumeControl1.addEventListener("input", function() {
     audio1.volume = this.value; // Met à jour le volume
     audio2.volume = this.value;
 });
+
+//test

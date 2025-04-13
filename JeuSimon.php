@@ -12,7 +12,7 @@ $mySQLClient = new PDO(
 session_start(); // Démarrer la session pour récupérer les variables
 
 if (!isset($_SESSION['pseudo'])) {
-    header("Location: JeuSimonIntroPage.php.php"); // Rediriger si l'utilisateur n'est pas connecté
+    header("Location: JeuSimonIntroPage.php"); // Rediriger si l'utilisateur n'est pas connecté
     exit();
 }
 
